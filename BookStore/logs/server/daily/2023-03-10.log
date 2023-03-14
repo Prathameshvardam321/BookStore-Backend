@@ -1,0 +1,291 @@
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-10T10:14:59.164Z"}
+info: Connected to the database. {"timestamp":"2023-03-10T10:14:59.196Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/cart/62158a4505253301a4fda5de 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-03-10T10:20:53.974Z"}
+error: 
+    status - 500 
+    message - ReferenceError: HttpStatus is not defined
+    at _callee$ (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\src\controllers\/cart.controller.js:7:20)
+    at tryCatch (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at addToCart (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\src\controllers\/cart.controller.js:4:23)
+    at Layer.handle [as handle_request] (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\src\middlewares\/auth.middleware.js:18:5)
+    at tryCatch (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/62158a4505253301a4fda5de 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-10T10:21:29.997Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-10T10:23:19.815Z"}
+info: Connected to the database. {"timestamp":"2023-03-10T10:23:19.846Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-10T10:25:33.125Z"}
+info: Connected to the database. {"timestamp":"2023-03-10T10:25:33.153Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-10T10:26:40.264Z"}
+info: Connected to the database. {"timestamp":"2023-03-10T10:26:40.295Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-10T10:26:55.187Z"}
+info: Connected to the database. {"timestamp":"2023-03-10T10:26:55.217Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-10T10:29:23.722Z"}
+info: Connected to the database. {"timestamp":"2023-03-10T10:29:23.765Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-10T10:29:34.368Z"}
+info: Connected to the database. {"timestamp":"2023-03-10T10:29:34.400Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-10T10:31:11.468Z"}
+info: Connected to the database. {"timestamp":"2023-03-10T10:31:11.505Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-10T10:32:12.278Z"}
+info: Connected to the database. {"timestamp":"2023-03-10T10:32:12.317Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-10T10:33:12.917Z"}
+info: Connected to the database. {"timestamp":"2023-03-10T10:33:12.943Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-10T10:33:18.393Z"}
+info: Connected to the database. {"timestamp":"2023-03-10T10:33:18.435Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-10T10:33:32.769Z"}
+info: Connected to the database. {"timestamp":"2023-03-10T10:33:32.804Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-10T10:35:04.297Z"}
+info: Connected to the database. {"timestamp":"2023-03-10T10:35:04.331Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-10T10:35:30.523Z"}
+info: Connected to the database. {"timestamp":"2023-03-10T10:35:30.550Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-10T10:37:47.848Z"}
+info: Connected to the database. {"timestamp":"2023-03-10T10:37:47.882Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-10T10:39:13.215Z"}
+info: Connected to the database. {"timestamp":"2023-03-10T10:39:13.258Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-10T10:40:07.598Z"}
+info: Connected to the database. {"timestamp":"2023-03-10T10:40:07.630Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-10T10:40:18.072Z"}
+info: Connected to the database. {"timestamp":"2023-03-10T10:40:18.104Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-10T10:41:01.173Z"}
+info: Connected to the database. {"timestamp":"2023-03-10T10:41:01.206Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-10T10:43:03.299Z"}
+info: Connected to the database. {"timestamp":"2023-03-10T10:43:03.332Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-10T10:44:01.784Z"}
+info: Connected to the database. {"timestamp":"2023-03-10T10:44:01.822Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-10T10:44:24.329Z"}
+info: Connected to the database. {"timestamp":"2023-03-10T10:44:24.356Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-10T10:44:30.926Z"}
+info: Connected to the database. {"timestamp":"2023-03-10T10:44:30.959Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-10T10:46:15.824Z"}
+info: Connected to the database. {"timestamp":"2023-03-10T10:46:15.858Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-10T10:47:04.253Z"}
+info: Connected to the database. {"timestamp":"2023-03-10T10:47:04.276Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "62158a4505253301a4fda5de11" (type string) at path "_id" for model "Books"
+    at model.Query.exec (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/62158a4505253301a4fda5de11 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-10T10:47:23.579Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "62158a4505253301a4fda5de11a" (type string) at path "_id" for model "Books"
+    at model.Query.exec (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/62158a4505253301a4fda5de11a 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-10T10:47:45.609Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-10T10:48:28.361Z"}
+info: Connected to the database. {"timestamp":"2023-03-10T10:48:28.389Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "62158a4505253301a4fda5de11" (type string) at path "_id" for model "Books"
+    at model.Query.exec (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/62158a4505253301a4fda5de11 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-10T10:48:32.867Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-10T10:50:51.018Z"}
+info: Connected to the database. {"timestamp":"2023-03-10T10:50:51.058Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-10T10:51:15.593Z"}
+info: Connected to the database. {"timestamp":"2023-03-10T10:51:15.627Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-10T10:55:14.345Z"}
+info: Connected to the database. {"timestamp":"2023-03-10T10:55:14.380Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ userID: '6408377fb2900221d421792e' }" (type Object) at path "_id" for model "Cart"
+    at model.Query.exec (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/62158a4505253301a4fda5de 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-10T10:55:17.535Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-10T10:55:29.812Z"}
+info: Connected to the database. {"timestamp":"2023-03-10T10:55:29.842Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ userID: '6408377fb2900221d421792e' }" (type Object) at path "_id" for model "Cart"
+    at model.Query.exec (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/62158a4505253301a4fda5de 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-10T10:55:47.188Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-10T10:56:44.526Z"}
+info: Connected to the database. {"timestamp":"2023-03-10T10:56:44.552Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-10T10:57:28.016Z"}
+info: Connected to the database. {"timestamp":"2023-03-10T10:57:28.051Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-10T10:58:08.769Z"}
+info: Connected to the database. {"timestamp":"2023-03-10T10:58:08.801Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-10T11:00:03.020Z"}
+info: Connected to the database. {"timestamp":"2023-03-10T11:00:03.053Z"}
+error: 
+    status - 500 
+    message - ObjectParameterError: Parameter "obj" to Document() must be an object, got 6408377fb2900221d421792e
+    at model.Document (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\mongoose\lib\document.js:100:11)
+    at model.Model (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\mongoose\lib\model.js:106:12)
+    at new model (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\mongoose\lib\model.js:4919:15)
+    at C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\mongoose\lib\model.js:3165:22
+    at C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\mongoose\lib\model.js:3201:7
+    at Array.forEach (<anonymous>)
+    at C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\mongoose\lib\model.js:3200:15
+    at C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\mongoose\lib\helpers\promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\mongoose\lib\index.js:1149:10)
+    at Function.create (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\mongoose\lib\model.js:3135:23)
+    at _callee$ (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\src\services\/cart.service.js:42:34)
+    at tryCatch (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/62158a4505253301a4fda5de 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-10T11:00:28.037Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-10T11:05:35.600Z"}
+info: Connected to the database. {"timestamp":"2023-03-10T11:05:35.641Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-10T11:10:14.484Z"}
+info: Connected to the database. {"timestamp":"2023-03-10T11:10:14.514Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-10T11:10:21.731Z"}
+info: Connected to the database. {"timestamp":"2023-03-10T11:10:21.756Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-10T11:19:20.308Z"}
+info: Connected to the database. {"timestamp":"2023-03-10T11:19:20.352Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-10T11:21:09.342Z"}
+info: Connected to the database. {"timestamp":"2023-03-10T11:21:09.385Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-10T11:21:44.305Z"}
+info: Connected to the database. {"timestamp":"2023-03-10T11:21:44.338Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-10T11:23:00.110Z"}
+info: Connected to the database. {"timestamp":"2023-03-10T11:23:00.148Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-10T11:27:11.730Z"}
+info: Connected to the database. {"timestamp":"2023-03-10T11:27:11.770Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-10T11:28:51.436Z"}
+info: Connected to the database. {"timestamp":"2023-03-10T11:28:51.471Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-10T11:29:14.696Z"}
+info: Connected to the database. {"timestamp":"2023-03-10T11:29:14.740Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-10T11:37:25.100Z"}
+info: Connected to the database. {"timestamp":"2023-03-10T11:37:25.146Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-10T11:46:49.858Z"}
+info: Connected to the database. {"timestamp":"2023-03-10T11:46:49.905Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-10T11:47:22.647Z"}
+info: Connected to the database. {"timestamp":"2023-03-10T11:47:22.683Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-10T11:47:34.229Z"}
+info: Connected to the database. {"timestamp":"2023-03-10T11:47:34.264Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-10T11:51:25.866Z"}
+info: Connected to the database. {"timestamp":"2023-03-10T11:51:25.903Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-10T11:53:48.096Z"}
+info: Connected to the database. {"timestamp":"2023-03-10T11:53:48.135Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-10T11:55:47.779Z"}
+info: Connected to the database. {"timestamp":"2023-03-10T11:55:47.812Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-10T11:56:37.448Z"}
+info: Connected to the database. {"timestamp":"2023-03-10T11:56:37.488Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-10T11:57:01.787Z"}
+info: Connected to the database. {"timestamp":"2023-03-10T11:57:01.833Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-10T11:57:10.366Z"}
+info: Connected to the database. {"timestamp":"2023-03-10T11:57:10.404Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-10T11:58:14.100Z"}
+info: Connected to the database. {"timestamp":"2023-03-10T11:58:14.146Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-10T11:59:07.628Z"}
+info: Connected to the database. {"timestamp":"2023-03-10T11:59:07.663Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-10T12:00:19.312Z"}
+info: Connected to the database. {"timestamp":"2023-03-10T12:00:19.347Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-10T12:01:06.067Z"}
+info: Connected to the database. {"timestamp":"2023-03-10T12:01:06.120Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-10T12:01:20.324Z"}
+info: Connected to the database. {"timestamp":"2023-03-10T12:01:20.359Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-10T12:04:27.219Z"}
+info: Connected to the database. {"timestamp":"2023-03-10T12:04:27.260Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-10T12:05:23.452Z"}
+info: Connected to the database. {"timestamp":"2023-03-10T12:05:23.493Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-10T12:07:14.836Z"}
+info: Connected to the database. {"timestamp":"2023-03-10T12:07:14.889Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-10T12:09:34.089Z"}
+info: Connected to the database. {"timestamp":"2023-03-10T12:09:34.129Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-10T12:10:34.764Z"}
+info: Connected to the database. {"timestamp":"2023-03-10T12:10:34.808Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-10T12:11:03.943Z"}
+info: Connected to the database. {"timestamp":"2023-03-10T12:11:03.978Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-10T12:16:39.489Z"}
+info: Connected to the database. {"timestamp":"2023-03-10T12:16:39.518Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-10T12:19:45.923Z"}
+info: Connected to the database. {"timestamp":"2023-03-10T12:19:45.965Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-10T12:26:32.071Z"}
+info: Connected to the database. {"timestamp":"2023-03-10T12:26:32.106Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-10T16:20:40.226Z"}
+info: Connected to the database. {"timestamp":"2023-03-10T16:20:40.259Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-10T16:25:20.104Z"}
+info: Connected to the database. {"timestamp":"2023-03-10T16:25:20.133Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-10T16:27:48.347Z"}
+info: Connected to the database. {"timestamp":"2023-03-10T16:27:48.378Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-10T16:29:01.728Z"}
+info: Connected to the database. {"timestamp":"2023-03-10T16:29:01.756Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-10T16:33:01.756Z"}
+info: Connected to the database. {"timestamp":"2023-03-10T16:33:01.780Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-10T16:33:12.275Z"}
+info: Connected to the database. {"timestamp":"2023-03-10T16:33:12.308Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-10T16:33:33.818Z"}
+info: Connected to the database. {"timestamp":"2023-03-10T16:33:33.845Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-10T16:35:23.431Z"}
+info: Connected to the database. {"timestamp":"2023-03-10T16:35:23.461Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-10T16:36:11.395Z"}
+info: Connected to the database. {"timestamp":"2023-03-10T16:36:11.419Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-10T16:36:50.638Z"}
+info: Connected to the database. {"timestamp":"2023-03-10T16:36:50.665Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-10T16:37:01.856Z"}
+info: Connected to the database. {"timestamp":"2023-03-10T16:37:01.890Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-10T16:37:41.261Z"}
+info: Connected to the database. {"timestamp":"2023-03-10T16:37:41.295Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-10T16:42:09.032Z"}
+info: Connected to the database. {"timestamp":"2023-03-10T16:42:09.061Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-10T16:42:30.124Z"}
+info: Connected to the database. {"timestamp":"2023-03-10T16:42:30.149Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-10T16:59:37.381Z"}
+info: Connected to the database. {"timestamp":"2023-03-10T16:59:37.412Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-10T17:00:03.919Z"}
+info: Connected to the database. {"timestamp":"2023-03-10T17:00:03.945Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-10T17:00:11.549Z"}
+info: Connected to the database. {"timestamp":"2023-03-10T17:00:11.575Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ bookId: '6215888305253301a4fda5cd' }" (type Object) at path "_id" for model "Books"
+    at model.Query.exec (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/6215888305253301a4fda5cd 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-10T17:00:15.761Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-10T17:00:56.692Z"}
+info: Connected to the database. {"timestamp":"2023-03-10T17:00:56.726Z"}

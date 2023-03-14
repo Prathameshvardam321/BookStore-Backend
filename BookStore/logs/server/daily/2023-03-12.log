@@ -1,0 +1,145 @@
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-12T06:35:24.290Z"}
+info: Connected to the database. {"timestamp":"2023-03-12T06:35:24.345Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to Number failed for value "NaN" (type number) at path "cartTotal"
+    at model.Query.exec (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/reduce/621588d505253301a4fda5cf 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-03-12T06:36:56.060Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-12T06:55:07.085Z"}
+info: Connected to the database. {"timestamp":"2023-03-12T06:55:07.116Z"}
+error: 
+    status - 500 
+    message - ValidationError: "value" must be of type object 
+    url - /api/v1/cart/reduce/621588af05253301a4fda5ce 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-03-12T06:55:11.422Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-12T06:57:56.962Z"}
+info: Connected to the database. {"timestamp":"2023-03-12T06:57:56.989Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-12T06:58:27.507Z"}
+info: Connected to the database. {"timestamp":"2023-03-12T06:58:27.541Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-12T07:17:17.551Z"}
+info: Connected to the database. {"timestamp":"2023-03-12T07:17:17.585Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-12T07:18:03.018Z"}
+info: Connected to the database. {"timestamp":"2023-03-12T07:18:03.047Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-12T07:18:12.134Z"}
+info: Connected to the database. {"timestamp":"2023-03-12T07:18:12.162Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-12T07:23:02.786Z"}
+info: Connected to the database. {"timestamp":"2023-03-12T07:23:02.814Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-12T07:26:30.735Z"}
+info: Connected to the database. {"timestamp":"2023-03-12T07:26:30.761Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-12T07:27:02.432Z"}
+info: Connected to the database. {"timestamp":"2023-03-12T07:27:02.465Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-12T07:35:57.699Z"}
+info: Connected to the database. {"timestamp":"2023-03-12T07:35:57.736Z"}
+error: 
+    status - 500 
+    message - Error: Cart Value should not be below 0.
+    at _callee2$ (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\src\services\/cart.service.js:80:13)
+    at tryCatch (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/reduce/621588af05253301a4fda5ce 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-03-12T07:35:59.956Z"}
+error: 
+    status - 500 
+    message - Error: Cart Value should not be below 0.
+    at _callee2$ (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\src\services\/cart.service.js:80:13)
+    at tryCatch (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/reduce/6214803b05253301a4fda584 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-03-12T07:37:30.511Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-12T07:39:06.635Z"}
+info: Connected to the database. {"timestamp":"2023-03-12T07:39:06.678Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-12T07:40:22.974Z"}
+info: Connected to the database. {"timestamp":"2023-03-12T07:40:23.034Z"}
+error: 
+    status - 500 
+    message - Error: Book is not available right now !!!
+    at _callee$ (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\src\services\/cart.service.js:17:13)
+    at tryCatch (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/6214803b05253301a4fda584 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-12T07:40:48.189Z"}
+error: 
+    status - 500 
+    message - Error: Cart Value should not be below 0.
+    at _callee2$ (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\src\services\/cart.service.js:89:13)
+    at tryCatch (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/reduce/6215178d05253301a4fda5c4 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-03-12T07:42:48.545Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-12T07:43:13.077Z"}
+info: Connected to the database. {"timestamp":"2023-03-12T07:43:13.116Z"}
+error: 
+    status - 500 
+    message - Error: Cart Value should not be below 0.
+    at _callee2$ (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\src\services\/cart.service.js:89:13)
+    at tryCatch (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/reduce/6215178d05253301a4fda5c4 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-03-12T07:43:14.793Z"}
+error: 
+    status - 500 
+    message - Error: Quantity should not be below 0.
+    at _callee2$ (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\src\services\/cart.service.js:93:13)
+    at tryCatch (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/reduce/6215888305253301a4fda5cd 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-03-12T07:46:13.241Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-12T14:25:01.336Z"}
+info: Connected to the database. {"timestamp":"2023-03-12T14:25:01.372Z"}
+error: 
+    status - 500 
+    message - Error: Quantity should not be below 0.
+    at _callee2$ (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\src\services\/cart.service.js:93:13)
+    at tryCatch (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/reduce/6214803b05253301a4fda584 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-03-12T14:26:57.799Z"}

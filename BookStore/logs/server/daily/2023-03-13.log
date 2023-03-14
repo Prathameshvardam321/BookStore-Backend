@@ -1,0 +1,144 @@
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-13T07:27:32.150Z"}
+info: Connected to the database. {"timestamp":"2023-03-13T07:27:32.182Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-13T07:29:11.040Z"}
+info: Connected to the database. {"timestamp":"2023-03-13T07:29:11.071Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-13T07:30:23.930Z"}
+info: Connected to the database. {"timestamp":"2023-03-13T07:30:23.963Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-13T07:36:51.985Z"}
+info: Connected to the database. {"timestamp":"2023-03-13T07:36:52.014Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/wishlist/6214803b05253301a4fda584 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-03-13T07:37:11.717Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-13T08:29:50.351Z"}
+info: Connected to the database. {"timestamp":"2023-03-13T08:29:50.400Z"}
+error: 
+    status - 500 
+    message - Error: WishList already contains book
+    at _callee$ (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\src\services\/wishlist.service.js:31:15)
+    at tryCatch (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/wishlist/6214803b05253301a4fda584 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-13T08:30:01.624Z"}
+error: 
+    status - 500 
+    message - Error: WishList already contains book
+    at _callee$ (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\src\services\/wishlist.service.js:31:15)
+    at tryCatch (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/wishlist/62158a4505253301a4fda5de 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-13T08:31:29.489Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-13T08:41:16.525Z"}
+info: Connected to the database. {"timestamp":"2023-03-13T08:41:16.561Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-13T08:49:58.372Z"}
+info: Connected to the database. {"timestamp":"2023-03-13T08:49:58.404Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-13T08:50:11.876Z"}
+info: Connected to the database. {"timestamp":"2023-03-13T08:50:11.907Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-13T08:51:06.964Z"}
+info: Connected to the database. {"timestamp":"2023-03-13T08:51:06.996Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-13T08:52:03.330Z"}
+info: Connected to the database. {"timestamp":"2023-03-13T08:52:03.362Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/wishlist/remove/62158a4505253301a4fda5de 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-03-13T08:53:46.250Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-13T08:57:17.061Z"}
+info: Connected to the database. {"timestamp":"2023-03-13T08:57:17.094Z"}
+error: 
+    status - 500 
+    message - Error: WishList already contains book
+    at _callee$ (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\src\services\/wishlist.service.js:31:19)
+    at tryCatch (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/wishlist/62158a4505253301a4fda5de 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-13T08:57:47.203Z"}
+error: 
+    status - 500 
+    message - Error: WishList already contains book
+    at _callee$ (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\src\services\/wishlist.service.js:31:19)
+    at tryCatch (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/wishlist/62158a4505253301a4fda5de 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-13T08:57:52.705Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-13T08:59:46.717Z"}
+info: Connected to the database. {"timestamp":"2023-03-13T08:59:46.754Z"}
+error: 
+    status - 500 
+    message - Error: WishList already contains book
+    at _callee$ (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\src\services\/wishlist.service.js:31:19)
+    at tryCatch (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/wishlist/6214803b05253301a4fda584 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-13T09:00:33.567Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-13T09:01:22.334Z"}
+info: Connected to the database. {"timestamp":"2023-03-13T09:01:22.369Z"}
+error: 
+    status - 500 
+    message - Error: book already removed
+    at _callee2$ (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\src\services\/wishlist.service.js:57:11)
+    at tryCatch (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/wishlist/remove/6214803b05253301a4fda584 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-13T09:01:22.615Z"}
+error: 
+    status - 500 
+    message - Error: book already removed
+    at _callee2$ (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\src\services\/wishlist.service.js:57:11)
+    at tryCatch (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/wishlist/remove/62158a4505253301a4fda5de 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-13T09:03:02.841Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-13T09:19:46.268Z"}
+info: Connected to the database. {"timestamp":"2023-03-13T09:19:46.310Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-13T09:21:31.482Z"}
+info: Connected to the database. {"timestamp":"2023-03-13T09:21:31.516Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-13T09:23:15.730Z"}
+info: Connected to the database. {"timestamp":"2023-03-13T09:23:15.764Z"}

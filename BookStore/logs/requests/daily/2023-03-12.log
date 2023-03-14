@@ -1,0 +1,88 @@
+info: ::1 - - [12/Mar/2023:06:35:48 +0000] "PUT /api/v1/cart/reduce/621588af05253301a4fda5ce HTTP/1.1" 201 584 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [12/Mar/2023:06:36:32 +0000] "PUT /api/v1/cart/remove/621588af05253301a4fda5ce HTTP/1.1" 201 391 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [12/Mar/2023:06:36:56 +0000] "PUT /api/v1/cart/reduce/621588d505253301a4fda5cf HTTP/1.1" 500 110 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [12/Mar/2023:06:37:24 +0000] "PUT /api/v1/cart/reduce/621588af05253301a4fda5ce HTTP/1.1" 201 398 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [12/Mar/2023:06:37:37 +0000] "PUT /api/v1/cart/reduce/621588af05253301a4fda5ce HTTP/1.1" 201 402 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [12/Mar/2023:06:55:11 +0000] "PUT /api/v1/cart/reduce/621588af05253301a4fda5ce HTTP/1.1" 500 67 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [12/Mar/2023:06:58:29 +0000] "PUT /api/v1/cart/reduce/621588af05253301a4fda5ce HTTP/1.1" 201 403 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [12/Mar/2023:07:17:33 +0000] "PUT /api/v1/cart/reduce/621588af05253301a4fda5ce HTTP/1.1" 201 403 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [12/Mar/2023:07:18:18 +0000] "PUT /api/v1/cart/reduce/621588af05253301a4fda5ce HTTP/1.1" 201 403 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [12/Mar/2023:07:35:20 +0000] "POST /api/v1/cart/621588af05253301a4fda5ce HTTP/1.1" 201 365 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [12/Mar/2023:07:35:36 +0000] "PUT /api/v1/cart/reduce/621588af05253301a4fda5ce HTTP/1.1" 201 371 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [12/Mar/2023:07:35:39 +0000] "PUT /api/v1/cart/reduce/621588af05253301a4fda5ce HTTP/1.1" 201 375 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [12/Mar/2023:07:35:59 +0000] "PUT /api/v1/cart/reduce/621588af05253301a4fda5ce HTTP/1.1" 500 68 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [12/Mar/2023:07:36:17 +0000] "POST /api/v1/cart/621588af05253301a4fda5ce HTTP/1.1" 201 365 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [12/Mar/2023:07:36:18 +0000] "POST /api/v1/cart/621588af05253301a4fda5ce HTTP/1.1" 201 365 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [12/Mar/2023:07:36:46 +0000] "POST /api/v1/cart/6214803b05253301a4fda584 HTTP/1.1" 201 1537 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [12/Mar/2023:07:36:51 +0000] "POST /api/v1/cart/6214803b05253301a4fda584 HTTP/1.1" 201 1537 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [12/Mar/2023:07:37:01 +0000] "PUT /api/v1/cart/reduce/6214803b05253301a4fda584 HTTP/1.1" 201 1545 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [12/Mar/2023:07:37:06 +0000] "PUT /api/v1/cart/reduce/6214803b05253301a4fda584 HTTP/1.1" 201 1544 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [12/Mar/2023:07:37:13 +0000] "PUT /api/v1/cart/reduce/6214803b05253301a4fda584 HTTP/1.1" 201 1546 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [12/Mar/2023:07:37:30 +0000] "PUT /api/v1/cart/reduce/6214803b05253301a4fda584 HTTP/1.1" 500 68 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [12/Mar/2023:07:40:48 +0000] "POST /api/v1/cart/6214803b05253301a4fda584 HTTP/1.1" 500 70 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [12/Mar/2023:07:41:20 +0000] "POST /api/v1/cart/6214803b05253301a4fda584 HTTP/1.1" 201 1354 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [12/Mar/2023:07:41:23 +0000] "POST /api/v1/cart/6214803b05253301a4fda584 HTTP/1.1" 201 1355 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [12/Mar/2023:07:41:30 +0000] "PUT /api/v1/cart/reduce/6214803b05253301a4fda584 HTTP/1.1" 201 1362 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [12/Mar/2023:07:42:21 +0000] "POST /api/v1/cart/6215178d05253301a4fda5c4 HTTP/1.1" 201 1579 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [12/Mar/2023:07:42:26 +0000] "POST /api/v1/cart/6215178d05253301a4fda5c4 HTTP/1.1" 201 1579 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [12/Mar/2023:07:42:37 +0000] "PUT /api/v1/cart/reduce/6215178d05253301a4fda5c4 HTTP/1.1" 201 1587 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [12/Mar/2023:07:42:38 +0000] "PUT /api/v1/cart/reduce/6215178d05253301a4fda5c4 HTTP/1.1" 201 1586 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [12/Mar/2023:07:42:42 +0000] "PUT /api/v1/cart/reduce/6215178d05253301a4fda5c4 HTTP/1.1" 201 1587 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [12/Mar/2023:07:42:48 +0000] "PUT /api/v1/cart/reduce/6215178d05253301a4fda5c4 HTTP/1.1" 500 68 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [12/Mar/2023:07:43:14 +0000] "PUT /api/v1/cart/reduce/6215178d05253301a4fda5c4 HTTP/1.1" 500 68 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [12/Mar/2023:07:45:26 +0000] "POST /api/v1/cart/6215178d05253301a4fda5c4 HTTP/1.1" 201 407 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [12/Mar/2023:07:45:34 +0000] "POST /api/v1/cart/6215178d05253301a4fda5c4 HTTP/1.1" 201 408 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [12/Mar/2023:07:45:55 +0000] "POST /api/v1/cart/6215888305253301a4fda5cd HTTP/1.1" 201 623 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [12/Mar/2023:07:45:58 +0000] "POST /api/v1/cart/6215888305253301a4fda5cd HTTP/1.1" 201 623 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [12/Mar/2023:07:46:05 +0000] "PUT /api/v1/cart/reduce/6215888305253301a4fda5cd HTTP/1.1" 201 631 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [12/Mar/2023:07:46:10 +0000] "PUT /api/v1/cart/reduce/6215888305253301a4fda5cd HTTP/1.1" 201 631 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [12/Mar/2023:07:46:13 +0000] "PUT /api/v1/cart/reduce/6215888305253301a4fda5cd HTTP/1.1" 500 66 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [12/Mar/2023:14:25:18 +0000] "POST /api/v1/cart/6215888305253301a4fda5cd HTTP/1.1" 201 398 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [12/Mar/2023:14:25:23 +0000] "POST /api/v1/cart/6215888305253301a4fda5cd HTTP/1.1" 201 399 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [12/Mar/2023:14:25:48 +0000] "POST /api/v1/cart/6214803b05253301a4fda584 HTTP/1.1" 201 1570 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [12/Mar/2023:14:26:53 +0000] "PUT /api/v1/cart/reduce/6214803b05253301a4fda584 HTTP/1.1" 201 1578 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [12/Mar/2023:14:26:57 +0000] "PUT /api/v1/cart/reduce/6214803b05253301a4fda584 HTTP/1.1" 500 66 "-" "PostmanRuntime/7.31.1"
+

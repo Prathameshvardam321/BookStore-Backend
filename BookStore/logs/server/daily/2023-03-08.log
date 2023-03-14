@@ -1,0 +1,113 @@
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-08T07:17:09.899Z"}
+info: Connected to the database. {"timestamp":"2023-03-08T07:17:09.931Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-08T07:17:42.517Z"}
+info: Connected to the database. {"timestamp":"2023-03-08T07:17:42.557Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-08T09:25:44.005Z"}
+info: Connected to the database. {"timestamp":"2023-03-08T09:25:44.034Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-08T09:25:53.309Z"}
+info: Connected to the database. {"timestamp":"2023-03-08T09:25:53.336Z"}
+error: 
+    status - 500 
+    message - ValidationError: "description" is required 
+    url - /api/v1/books 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-08T09:26:12.641Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-08T09:30:20.248Z"}
+info: Connected to the database. {"timestamp":"2023-03-08T09:30:20.281Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-08T09:30:36.595Z"}
+info: Connected to the database. {"timestamp":"2023-03-08T09:30:36.631Z"}
+error: 
+    status - 500 
+    message - ReferenceError: Notes is not defined
+    at _callee$ (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\src\services\/book.service.js:3:38)
+    at tryCatch (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.apply (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.createBook (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\src\services\/book.service.js:3:24)
+    at _callee$ (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\src\controllers\/Book.controller.js:6:40)
+    at tryCatch (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at createBook (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\src\controllers\/Book.controller.js:4:24)
+    at Layer.handle [as handle_request] (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\express\lib\router\route.js:144:13)
+    at newBookValidator (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\src\validators\/book.validator.js:24:5)
+    at Layer.handle [as handle_request] (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\express\lib\router\index.js:280:10) 
+    url - /api/v1/books 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-08T09:32:43.697Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-08T09:33:32.765Z"}
+info: Connected to the database. {"timestamp":"2023-03-08T09:33:32.799Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-08T09:36:23.570Z"}
+info: Connected to the database. {"timestamp":"2023-03-08T09:36:23.608Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-08T09:36:37.382Z"}
+info: Connected to the database. {"timestamp":"2023-03-08T09:36:37.414Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/books 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-03-08T09:36:45.924Z"}
+error: 
+    status - 500 
+    message - ReferenceError: userName is not defined
+    at _callee$ (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\src\middlewares\/auth.middleware.js:17:13)
+    at tryCatch (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/books 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-08T09:39:45.661Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-08T09:40:34.791Z"}
+info: Connected to the database. {"timestamp":"2023-03-08T09:40:34.825Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-08T09:41:45.577Z"}
+info: Connected to the database. {"timestamp":"2023-03-08T09:41:45.605Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-08T12:10:28.201Z"}
+info: Connected to the database. {"timestamp":"2023-03-08T12:10:28.229Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-08T12:12:13.432Z"}
+info: Connected to the database. {"timestamp":"2023-03-08T12:12:13.451Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-08T12:12:17.579Z"}
+info: Connected to the database. {"timestamp":"2023-03-08T12:12:17.597Z"}

@@ -1,0 +1,238 @@
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-11T10:19:11.975Z"}
+info: Connected to the database. {"timestamp":"2023-03-11T10:19:12.016Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "6215888305253301a4fda5cd12" (type string) at path "_id" for model "Books"
+    at model.Query.exec (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/6215888305253301a4fda5cd12 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-11T10:19:22.748Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-11T10:21:38.731Z"}
+info: Connected to the database. {"timestamp":"2023-03-11T10:21:38.765Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "6215888305253301a4fda5cd12" (type string) at path "_id" for model "Books"
+    at model.Query.exec (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/6215888305253301a4fda5cd12 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-11T10:21:43.298Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-11T10:36:52.385Z"}
+info: Connected to the database. {"timestamp":"2023-03-11T10:36:52.423Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-11T10:38:14.097Z"}
+info: Connected to the database. {"timestamp":"2023-03-11T10:38:14.133Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-11T10:38:54.118Z"}
+info: Connected to the database. {"timestamp":"2023-03-11T10:38:54.149Z"}
+error: 
+    status - 500 
+    message - Error: Book Not found
+    at _callee$ (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\src\services\/cart.service.js:10:13)
+    at tryCatch (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.apply (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.addBook (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\src\services\/cart.service.js:5:21)
+    at _callee$ (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\src\controllers\/cart.controller.js:7:38)
+    at tryCatch (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at addToCart (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\src\controllers\/cart.controller.js:5:23)
+    at Layer.handle [as handle_request] (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\src\middlewares\/auth.middleware.js:18:5)
+    at tryCatch (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/6215888305253301a4fda5cd12 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-11T10:38:54.592Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-11T10:42:18.547Z"}
+info: Connected to the database. {"timestamp":"2023-03-11T10:42:18.578Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-11T10:46:57.562Z"}
+info: Connected to the database. {"timestamp":"2023-03-11T10:46:57.599Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-11T10:48:39.019Z"}
+info: Connected to the database. {"timestamp":"2023-03-11T10:48:39.054Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-11T10:49:10.710Z"}
+info: Connected to the database. {"timestamp":"2023-03-11T10:49:10.739Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-11T10:52:20.558Z"}
+info: Connected to the database. {"timestamp":"2023-03-11T10:52:20.594Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-11T10:53:09.003Z"}
+info: Connected to the database. {"timestamp":"2023-03-11T10:53:09.037Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-11T10:54:43.786Z"}
+info: Connected to the database. {"timestamp":"2023-03-11T10:54:43.819Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-11T11:05:10.465Z"}
+info: Connected to the database. {"timestamp":"2023-03-11T11:05:10.505Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-11T11:10:45.437Z"}
+info: Connected to the database. {"timestamp":"2023-03-11T11:10:45.472Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-11T11:12:49.474Z"}
+info: Connected to the database. {"timestamp":"2023-03-11T11:12:49.508Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-11T11:15:16.907Z"}
+info: Connected to the database. {"timestamp":"2023-03-11T11:15:16.941Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-11T11:15:40.866Z"}
+info: Connected to the database. {"timestamp":"2023-03-11T11:15:40.905Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-11T11:16:16.607Z"}
+info: Connected to the database. {"timestamp":"2023-03-11T11:16:16.640Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-11T11:17:35.054Z"}
+info: Connected to the database. {"timestamp":"2023-03-11T11:17:35.090Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-11T11:18:19.919Z"}
+info: Connected to the database. {"timestamp":"2023-03-11T11:18:19.956Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-11T11:21:17.733Z"}
+info: Connected to the database. {"timestamp":"2023-03-11T11:21:17.775Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/cart/reduce/6215888305253301a4fda5cd 
+      method - PUT 
+      IP - ::1
+     {"timestamp":"2023-03-11T11:23:48.313Z"}
+error: 
+    status - 500 
+    message - ReferenceError: price is not defined
+    at forEach (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\src\services\/cart.service.js:81:9)
+    at CoreDocumentArray.forEach (<anonymous>)
+    at _callee2$ (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\src\services\/cart.service.js:79:12)
+    at tryCatch (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/reduce/6215888305253301a4fda5cd 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-03-11T11:24:36.323Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-11T11:25:21.304Z"}
+info: Connected to the database. {"timestamp":"2023-03-11T11:25:21.343Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-11T11:27:14.912Z"}
+info: Connected to the database. {"timestamp":"2023-03-11T11:27:14.944Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-11T11:58:32.338Z"}
+info: Connected to the database. {"timestamp":"2023-03-11T11:58:32.378Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-11T12:00:10.630Z"}
+info: Connected to the database. {"timestamp":"2023-03-11T12:00:10.671Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-11T12:04:37.605Z"}
+info: Connected to the database. {"timestamp":"2023-03-11T12:04:37.638Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-11T12:04:47.934Z"}
+info: Connected to the database. {"timestamp":"2023-03-11T12:04:47.977Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-11T12:07:02.093Z"}
+info: Connected to the database. {"timestamp":"2023-03-11T12:07:02.133Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-11T14:11:22.405Z"}
+info: Connected to the database. {"timestamp":"2023-03-11T14:11:22.478Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-11T14:13:20.068Z"}
+info: Connected to the database. {"timestamp":"2023-03-11T14:13:20.101Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-11T14:14:34.025Z"}
+info: Connected to the database. {"timestamp":"2023-03-11T14:14:34.060Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'cartTotal')
+    at _callee3$ (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\src\services\/cart.service.js:97:25)
+    at tryCatch (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/remove/6214803b05253301a4fda584 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-03-11T14:14:57.860Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to Number failed for value "NaN" (type number) at path "cartTotal"
+    at model.Query.exec (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/reduce/640c8cf29995e878cc05f47a 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-03-11T14:18:45.069Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to Number failed for value "NaN" (type number) at path "cartTotal"
+    at model.Query.exec (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/reduce/640c8cf29995e878cc05f47a 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-03-11T14:19:02.688Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-11T14:21:23.895Z"}
+info: Connected to the database. {"timestamp":"2023-03-11T14:21:23.929Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-11T14:23:20.745Z"}
+info: Connected to the database. {"timestamp":"2023-03-11T14:23:20.783Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-11T14:50:18.412Z"}
+info: Connected to the database. {"timestamp":"2023-03-11T14:50:18.447Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'cartTotal')
+    at _callee2$ (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\src\services\/cart.service.js:78:25)
+    at tryCatch (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/reduce/6214803b05253301a4fda584 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-03-11T14:52:18.756Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to Number failed for value "NaN" (type number) at path "cartTotal"
+    at model.Query.exec (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/reduce/6214803b05253301a4fda584 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-03-11T14:53:47.180Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to Number failed for value "NaN" (type number) at path "cartTotal"
+    at model.Query.exec (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/reduce/6408377fb2900221d421792e 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-03-11T14:54:07.543Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to Number failed for value "NaN" (type number) at path "cartTotal"
+    at model.Query.exec (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/reduce/6408377fb2900221d421792e 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-03-11T14:54:08.400Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-11T14:58:23.666Z"}
+info: Connected to the database. {"timestamp":"2023-03-11T14:58:23.707Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-11T15:14:18.435Z"}
+info: Connected to the database. {"timestamp":"2023-03-11T15:14:18.473Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-11T15:15:03.193Z"}
+info: Connected to the database. {"timestamp":"2023-03-11T15:15:03.225Z"}
+error: 
+    status - 500 
+    message - ValidationError: "userID" is not allowed 
+    url - /api/v1/cart/reduce/621588af05253301a4fda5ce 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-03-11T15:15:12.364Z"}
