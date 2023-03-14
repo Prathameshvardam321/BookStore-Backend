@@ -10,10 +10,12 @@ export const addBook = async (userID, bookId) => {
    }
    const searchBook = await getBook(bookId)
    if (!searchBook) {
-      return "Book Not found"
+      return {error: 0, status: HttpStatus.OK, message: "Book Not found."};
+  
    }
    if (searchBook.quantity < 1) {
-      throw new Error("Book is not available right now !!!")
+      return {error: 0, status: HttpStatus.OK, message: "Book is not available right now !!!."};
+   
    }
    const existingCart = await Cart.findOne({ 'userID': userID })
 
@@ -43,9 +45,6 @@ export const addBook = async (userID, bookId) => {
       });
       if (bookFound == false) {
          existingCart.books.push(bookDetailsInput)
-         // existingCart.books.forEach(book => {
-         //    total = total + book.price
-         // })
          total = total + searchBook.price
          console.log("Inserted succesfully");
       }
@@ -85,11 +84,13 @@ export const decreaseQuantityOfBook = async (userID, bookId) => {
    })
    let updateTotal = cartTotal - price
    if (updateTotal < 0) {
-      throw Error("Cart Value should not be below 0.")
+      return {error: 0, status: HttpStatus.OK, message: "Cart Value should not be below 0."};
+      
    }
 
    if (quantity - 1 < 0) {
-      throw Error("Quantity should not be below 0.")
+      return {error: 0, status: HttpStatus.OK, message: "Quantity should not be below 0."};
+      
    }
    const data = await Cart.findOneAndUpdate({ userID: userID }, { books: cart.books, cartTotal: updateTotal }, { new: true })
    return data

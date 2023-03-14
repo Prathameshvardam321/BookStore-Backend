@@ -30,7 +30,8 @@ export const addToWishList = async (userID, bookId) => {
             updatedWishList = await Wishlist.findOneAndUpdate({ userID: userID }, { books: isWishList.books }, { new: true })
             return updatedWishList
         } else {
-            throw Error("WishList already contains book")
+            return {error: 0, status: HttpStatus.OK, message: "WishList already contains book"};
+          
         }
 
     } else {
@@ -56,8 +57,7 @@ export const removeFromWishList = async (userID, bookId) => {
         }
     })
 if (flag==false) {
-    throw Error('book already removed');
-    return {error: 0, status: HttpStatus.OK, message: "Book not found in cart."};
+    return {error: 0, status: HttpStatus.OK, message: "book already removed."};
 }
     let indexValue = isWishList.books.findIndex(x => x == bookToRemove)
     await isWishList.books.splice(indexValue, 1)
