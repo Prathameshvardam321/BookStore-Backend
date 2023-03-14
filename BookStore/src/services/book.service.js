@@ -1,10 +1,5 @@
 import Books from "../models/Book.model";
 
-// export const createBook = async (body) => {
-//     const data = await Books.create(body)
-//     return data
-// }
-
 
 //getAll
 export const getAllBooks = async (body) => {
