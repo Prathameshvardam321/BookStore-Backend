@@ -81,5 +81,16 @@ export const highToLow = async (req, res, next) => {
 };
 
 
-
+export const searchByText = async (req, res, next) => {
+    try {
+      const data = await CartService.searchByText(req.params.searchText)
+        res.status(HttpStatus.CREATED).json({
+            code: HttpStatus.CREATED,
+            data: data,
+            message: 'Books from your search'
+        });
+    } catch (error) {
+        next(error);
+    }
+};
 
