@@ -12,5 +12,11 @@ router.put("/remove/:id", userAuth, CartController.removeBook)
 
 router.put("/purchase/:id", CartController.purchaseBook)
 
+router.get("/lowToHigh",userAuth,CartController.lowToHigh)
+
+router.get("/highToLow",userAuth,CartController.highToLow)
+
+router.get("/:searchText",CartController.searchByText)
+
 export default router;
 

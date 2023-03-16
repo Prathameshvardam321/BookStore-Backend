@@ -1,0 +1,103 @@
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-16T05:41:35.390Z"}
+info: Connected to the database. {"timestamp":"2023-03-16T05:41:35.459Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/cart/100 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2023-03-16T05:42:07.964Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'books')
+    at _callee4$ (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\src\services\/cart.service.js:108:20)
+    at tryCatch (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/100 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-03-16T05:42:15.334Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'books')
+    at _callee4$ (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\src\services\/cart.service.js:108:20)
+    at tryCatch (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/with 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-03-16T05:43:12.027Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-16T05:45:01.666Z"}
+info: Connected to the database. {"timestamp":"2023-03-16T05:45:01.699Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'books')
+    at _callee4$ (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\src\services\/cart.service.js:108:20)
+    at tryCatch (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/with 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-03-16T05:45:07.091Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'books')
+    at _callee4$ (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\src\services\/cart.service.js:108:20)
+    at tryCatch (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/sc 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-03-16T05:45:17.623Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-16T05:45:31.273Z"}
+info: Connected to the database. {"timestamp":"2023-03-16T05:45:31.301Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'books')
+    at _callee4$ (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\src\services\/cart.service.js:108:20)
+    at tryCatch (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/sc 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-03-16T05:45:36.962Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-16T05:46:26.706Z"}
+info: Connected to the database. {"timestamp":"2023-03-16T05:46:26.736Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'books')
+    at _callee4$ (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\src\services\/cart.service.js:108:20)
+    at tryCatch (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/Data 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-03-16T05:46:43.789Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-16T05:47:25.983Z"}
+info: Connected to the database. {"timestamp":"2023-03-16T05:47:26.013Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-16T05:48:50.990Z"}
+info: Connected to the database. {"timestamp":"2023-03-16T05:48:51.017Z"}

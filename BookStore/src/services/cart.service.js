@@ -10,12 +10,12 @@ export const addBook = async (userID, bookId) => {
    }
    const searchBook = await getBook(bookId)
    if (!searchBook) {
-      return {error: 0, status: HttpStatus.OK, message: "Book Not found."};
-  
+      return { error: 0, status: HttpStatus.OK, message: "Book Not found." };
+
    }
    if (searchBook.quantity < 1) {
-      return {error: 0, status: HttpStatus.OK, message: "Book is not available right now !!!."};
-   
+      return { error: 0, status: HttpStatus.OK, message: "Book is not available right now !!!." };
+
    }
    const existingCart = await Cart.findOne({ 'userID': userID })
 
@@ -84,17 +84,33 @@ export const decreaseQuantityOfBook = async (userID, bookId) => {
    })
    let updateTotal = cartTotal - price
    if (updateTotal < 0) {
-      return {error: 0, status: HttpStatus.OK, message: "Cart Value should not be below 0."};
-      
+      return { error: 0, status: HttpStatus.OK, message: "Cart Value should not be below 0." };
+
    }
 
    if (quantity - 1 < 0) {
-      return {error: 0, status: HttpStatus.OK, message: "Quantity should not be below 0."};
-      
+      return { error: 0, status: HttpStatus.OK, message: "Quantity should not be below 0." };
+
    }
    const data = await Cart.findOneAndUpdate({ userID: userID }, { books: cart.books, cartTotal: updateTotal }, { new: true })
    return data
 }
+
+
+export const lowToHigh = async (userID) => {
+   let cart = await Cart.findOne({ 'userID': userID })
+   let data = cart.books.sort((a, b) => a.price - b.price)
+   return data
+}
+
+export const highToLow = async (userID) => {
+   let cart = await Cart.findOne({ 'userID': userID })
+   let data = cart.books.sort((a, b) => b.price - a.price)
+   return data
+}
+
+
+
 
 export const removeBook = async (userID, bookId) => {
    let bookToRemove
@@ -126,3 +142,21 @@ export const purchaseBook = async (userID) => {
    const userCart = Cart.findOneAndUpdate({ '_id': userID }, { isPurchased: true }, { new: true })
    return userCart
 }
+
+export const searchByText = async (searchText) => {
+  
+     const data = await Book.find({
+       $or: [
+         {
+           bookName: { $regex: searchText, $options: 'i' }
+         },
+         {
+           author: { $regex: searchText, $options: 'i' }
+         },
+         {
+           description: { $regex: searchText, $options: 'i' }
+         }
+       ]
+     })
+     return data
+   }

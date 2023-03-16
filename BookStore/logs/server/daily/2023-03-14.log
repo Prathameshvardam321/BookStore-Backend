@@ -46,3 +46,186 @@ error:
     method - POST 
     IP - ::1
    {"timestamp":"2023-03-14T06:00:47.251Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-14T06:53:06.215Z"}
+info: Connected to the database. {"timestamp":"2023-03-14T06:53:06.256Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-14T06:54:13.826Z"}
+info: Connected to the database. {"timestamp":"2023-03-14T06:54:13.857Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-14T06:58:38.826Z"}
+info: Connected to the database. {"timestamp":"2023-03-14T06:58:38.868Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-14T07:00:47.930Z"}
+info: Connected to the database. {"timestamp":"2023-03-14T07:00:47.963Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-14T07:09:31.027Z"}
+info: Connected to the database. {"timestamp":"2023-03-14T07:09:31.061Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-14T08:35:00.528Z"}
+info: Connected to the database. {"timestamp":"2023-03-14T08:35:00.591Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-14T08:35:50.645Z"}
+info: Connected to the database. {"timestamp":"2023-03-14T08:35:50.693Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-14T08:38:08.814Z"}
+info: Connected to the database. {"timestamp":"2023-03-14T08:38:08.845Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-14T08:41:12.158Z"}
+info: Connected to the database. {"timestamp":"2023-03-14T08:41:12.187Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-14T08:45:54.437Z"}
+info: Connected to the database. {"timestamp":"2023-03-14T08:45:54.472Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-14T11:24:03.090Z"}
+info: Connected to the database. {"timestamp":"2023-03-14T11:24:03.132Z"}
+error: 
+    status - 500 
+    message - ValidationError: "name" is not allowed 
+    url - /api/v1/profile 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-14T11:32:49.095Z"}
+error: 
+    status - 500 
+    message - ValidationError: "name" is not allowed 
+    url - /api/v1/profile 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-14T11:33:05.259Z"}
+error: 
+    status - 500 
+    message - ValidationError: "name" is not allowed 
+    url - /api/v1/profile 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-14T11:34:01.609Z"}
+error: 
+    status - 500 
+    message - ValidationError: "name" is not allowed 
+    url - /api/v1/profile 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-14T11:34:11.711Z"}
+error: 
+    status - 500 
+    message - ValidationError: "phoneNumber" is not allowed 
+    url - /api/v1/profile 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-14T11:34:17.216Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-14T11:36:22.500Z"}
+info: Connected to the database. {"timestamp":"2023-03-14T11:36:22.546Z"}
+error: 
+    status - 500 
+    message - ValidationError: "name" is not allowed 
+    url - /api/v1/profile 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-14T11:36:26.143Z"}
+error: 
+    status - 500 
+    message - ValidationError: "phoneNumber" is not allowed 
+    url - /api/v1/profile 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-14T11:36:33.935Z"}
+error: 
+    status - 500 
+    message - ValidationError: "addresses" must be of type object 
+    url - /api/v1/profile 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-14T11:38:47.486Z"}
+error: 
+    status - 500 
+    message - ValidationError: "addresses" must be of type object 
+    url - /api/v1/profile 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-14T11:39:46.041Z"}
+error: 
+    status - 500 
+    message - ValidationError: "addresses" must be of type object 
+    url - /api/v1/profile 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-14T11:40:09.372Z"}
+error: 
+    status - 500 
+    message - ValidationError: "addresses.phoneNumber" length must be less than or equal to  characters long 
+    url - /api/v1/profile 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-14T11:40:17.121Z"}
+error: 
+    status - 500 
+    message - ValidationError: "addresses.phoneNumber" length must be less than or equal to  characters long 
+    url - /api/v1/profile 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-14T11:40:25.169Z"}
+error: 
+    status - 500 
+    message - ValidationError: "addresses.phoneNumber" length must be at least 10 characters long 
+    url - /api/v1/profile 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-14T11:40:37.426Z"}
+error: 
+    status - 500 
+    message - ValidationError: "addresses.phoneNumber" length must be less than or equal to  characters long 
+    url - /api/v1/profile 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-14T11:40:53.005Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-14T11:41:22.886Z"}
+info: Connected to the database. {"timestamp":"2023-03-14T11:41:22.935Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-14T11:43:21.375Z"}
+info: Connected to the database. {"timestamp":"2023-03-14T11:43:21.423Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-14T11:44:57.102Z"}
+info: Connected to the database. {"timestamp":"2023-03-14T11:44:57.143Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-14T11:45:42.271Z"}
+info: Connected to the database. {"timestamp":"2023-03-14T11:45:42.317Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-14T11:48:00.886Z"}
+info: Connected to the database. {"timestamp":"2023-03-14T11:48:00.920Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-14T11:48:15.840Z"}
+info: Connected to the database. {"timestamp":"2023-03-14T11:48:15.884Z"}
+error: 
+    status - 500 
+    message - ValidationError: "name" is not allowed 
+    url - /api/v1/profile 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-14T11:50:21.060Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-14T13:01:26.779Z"}
+info: Connected to the database. {"timestamp":"2023-03-14T13:01:26.878Z"}
+error: 
+    status - 500 
+    message - ValidationError: "name" is not allowed 
+    url - /api/v1/profile 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-14T13:01:51.480Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-14T13:07:24.033Z"}
+info: Connected to the database. {"timestamp":"2023-03-14T13:07:24.056Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-14T14:24:28.575Z"}
+info: Connected to the database. {"timestamp":"2023-03-14T14:24:28.600Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/profile/remove/work1 
+      method - DELETE 
+      IP - ::1
+     {"timestamp":"2023-03-14T14:26:13.346Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-14T14:28:19.764Z"}
+info: Connected to the database. {"timestamp":"2023-03-14T14:28:19.787Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-14T14:52:03.667Z"}
+info: Connected to the database. {"timestamp":"2023-03-14T14:52:03.691Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/cart/lowToHigh 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2023-03-14T14:52:09.967Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-14T14:57:13.981Z"}
+info: Connected to the database. {"timestamp":"2023-03-14T14:57:14.001Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-14T14:57:57.048Z"}
+info: Connected to the database. {"timestamp":"2023-03-14T14:57:57.068Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/cart/highToLow 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2023-03-14T14:58:41.713Z"}

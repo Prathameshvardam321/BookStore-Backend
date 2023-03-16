@@ -53,3 +53,33 @@ export const purchaseBook = async (req, res, next) => {
         next(error);
     }
 };
+
+export const lowToHigh = async (req, res, next) => {
+    try {
+      const data = await CartService.lowToHigh(req.body.userID)
+        res.status(HttpStatus.CREATED).json({
+            code: HttpStatus.CREATED,
+            data: data,
+            message: 'Order arranged according low to high price'
+        });
+    } catch (error) {
+        next(error);
+    }
+};
+
+export const highToLow = async (req, res, next) => {
+    try {
+      const data = await CartService.highToLow(req.body.userID)
+        res.status(HttpStatus.CREATED).json({
+            code: HttpStatus.CREATED,
+            data: data,
+            message: 'Order arranged according high to low price'
+        });
+    } catch (error) {
+        next(error);
+    }
+};
+
+
+
+

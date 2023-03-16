@@ -1124,3 +1124,227 @@ error:
     method - POST 
     IP - ::1
    {"timestamp":"2023-03-14T06:00:47.251Z"}
+error: 
+    status - 500 
+    message - ValidationError: "name" is not allowed 
+    url - /api/v1/profile 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-14T11:32:49.095Z"}
+error: 
+    status - 500 
+    message - ValidationError: "name" is not allowed 
+    url - /api/v1/profile 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-14T11:33:05.259Z"}
+error: 
+    status - 500 
+    message - ValidationError: "name" is not allowed 
+    url - /api/v1/profile 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-14T11:34:01.609Z"}
+error: 
+    status - 500 
+    message - ValidationError: "name" is not allowed 
+    url - /api/v1/profile 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-14T11:34:11.711Z"}
+error: 
+    status - 500 
+    message - ValidationError: "phoneNumber" is not allowed 
+    url - /api/v1/profile 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-14T11:34:17.216Z"}
+error: 
+    status - 500 
+    message - ValidationError: "name" is not allowed 
+    url - /api/v1/profile 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-14T11:36:26.143Z"}
+error: 
+    status - 500 
+    message - ValidationError: "phoneNumber" is not allowed 
+    url - /api/v1/profile 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-14T11:36:33.935Z"}
+error: 
+    status - 500 
+    message - ValidationError: "addresses" must be of type object 
+    url - /api/v1/profile 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-14T11:38:47.486Z"}
+error: 
+    status - 500 
+    message - ValidationError: "addresses" must be of type object 
+    url - /api/v1/profile 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-14T11:39:46.041Z"}
+error: 
+    status - 500 
+    message - ValidationError: "addresses" must be of type object 
+    url - /api/v1/profile 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-14T11:40:09.372Z"}
+error: 
+    status - 500 
+    message - ValidationError: "addresses.phoneNumber" length must be less than or equal to  characters long 
+    url - /api/v1/profile 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-14T11:40:17.121Z"}
+error: 
+    status - 500 
+    message - ValidationError: "addresses.phoneNumber" length must be less than or equal to  characters long 
+    url - /api/v1/profile 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-14T11:40:25.169Z"}
+error: 
+    status - 500 
+    message - ValidationError: "addresses.phoneNumber" length must be at least 10 characters long 
+    url - /api/v1/profile 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-14T11:40:37.426Z"}
+error: 
+    status - 500 
+    message - ValidationError: "addresses.phoneNumber" length must be less than or equal to  characters long 
+    url - /api/v1/profile 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-14T11:40:53.005Z"}
+error: 
+    status - 500 
+    message - ValidationError: "name" is not allowed 
+    url - /api/v1/profile 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-14T11:50:21.060Z"}
+error: 
+    status - 500 
+    message - ValidationError: "name" is not allowed 
+    url - /api/v1/profile 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-14T13:01:51.480Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/profile/remove/work1 
+      method - DELETE 
+      IP - ::1
+     {"timestamp":"2023-03-14T14:26:13.346Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/cart/lowToHigh 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2023-03-14T14:52:09.967Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/cart/highToLow 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2023-03-14T14:58:41.713Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/cart/100 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2023-03-16T05:42:07.964Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'books')
+    at _callee4$ (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\src\services\/cart.service.js:108:20)
+    at tryCatch (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/100 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-03-16T05:42:15.334Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'books')
+    at _callee4$ (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\src\services\/cart.service.js:108:20)
+    at tryCatch (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/with 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-03-16T05:43:12.027Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'books')
+    at _callee4$ (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\src\services\/cart.service.js:108:20)
+    at tryCatch (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/with 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-03-16T05:45:07.091Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'books')
+    at _callee4$ (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\src\services\/cart.service.js:108:20)
+    at tryCatch (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/sc 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-03-16T05:45:17.623Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'books')
+    at _callee4$ (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\src\services\/cart.service.js:108:20)
+    at tryCatch (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/sc 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-03-16T05:45:36.962Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'books')
+    at _callee4$ (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\src\services\/cart.service.js:108:20)
+    at tryCatch (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\prath\OneDrive\Desktop\BookStore\BookStoreBackend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/Data 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-03-16T05:46:43.789Z"}
